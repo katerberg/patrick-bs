@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-19
+  description: A test service
+spec:
+  type: service
+  lifecycle: alpha
+  owner: team-b
