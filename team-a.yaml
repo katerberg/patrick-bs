@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: A-Team
+  namespace: teams
+  description: The alpha-est team.
+
