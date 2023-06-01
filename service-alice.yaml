@@ -6,4 +6,4 @@ metadata:
 spec:
   type: service
   lifecycle: alpha
-  owner: alice
+  owner: user:default/Alice
