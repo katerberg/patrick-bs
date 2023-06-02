@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-bu
+  description: A test service owned by a BU
+spec:
+  type: service
+  lifecycle: alpha
+  owner: group:bu-a
