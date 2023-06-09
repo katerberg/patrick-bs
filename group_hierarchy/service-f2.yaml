@@ -6,4 +6,4 @@ metadata:
 spec:
   type: service
   lifecycle: alpha
-  owner: bu-frontend
+  owner: Group:default/bu-frontend

@@ -6,4 +6,4 @@ metadata:
 spec:
   type: service
   lifecycle: alpha
-  owner: team-website
+  owner: Group:default/team-website
