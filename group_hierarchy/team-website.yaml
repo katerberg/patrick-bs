@@ -11,4 +11,3 @@ spec:
   parent: Group:default/bu-frontend
   children: 
     - Group:default/team-website-signup
-
