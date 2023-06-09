@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-services
+  description: A collection of a number of backstage test entities
+spec:
+  targets:
+    - ./bu-tech.yaml
+    - ./bu-frontend.yaml
+    - ./bu-website.yaml
+    - ./team-website.yaml
+    - ./service-f1.yaml
+    - ./service-f2.yaml

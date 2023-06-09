@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bu-website
+  description: Business Unit Website
+spec:
+  type: business-unit
+  profile:
+    email: bu-website@example.com
+    picture: http://example.com/1.jpg
+  parent: "Group:default/bu-frontend"
+  children: []
+

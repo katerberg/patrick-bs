@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-f1
+  description: Service F1
+spec:
+  type: service
+  lifecycle: alpha
+  owner: team-website
