@@ -8,7 +8,7 @@ spec:
   profile:
     email: bu-tech@example.com
     picture: http://example.com/1.jpg
-  parent: backstage
+  parent: "backstage"
   children: 
     - Group:default/bu-frontend
 
