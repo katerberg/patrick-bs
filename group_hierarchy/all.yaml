@@ -9,5 +9,6 @@ spec:
     - ./bu-frontend.yaml
     - ./bu-website.yaml
     - ./team-website.yaml
+    - ./team-website-signup.yaml
     - ./service-f1.yaml
     - ./service-f2.yaml
