@@ -8,6 +8,7 @@ spec:
   profile:
     email: team-website@example.com
     picture: http://example.com/1.jpg
-  parent: "Group:default/bu-frontend"
-  children: ["Group:default/team-website-signup"]
+  parent: Group:default/bu-frontend
+  children: 
+    -Group:default/team-website-signup
 

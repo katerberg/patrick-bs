@@ -9,5 +9,6 @@ spec:
     email: bu-tech@example.com
     picture: http://example.com/1.jpg
   parent:
-  children: ["Group:default/bu-frontend"]
+  children: 
+    - Group:default/bu-frontend
 

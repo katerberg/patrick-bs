@@ -8,6 +8,6 @@ spec:
   profile:
     email: bu-website@example.com
     picture: http://example.com/1.jpg
-  parent: "Group:default/bu-frontend"
+  parent: Group:default/bu-frontend
   children: []
 
