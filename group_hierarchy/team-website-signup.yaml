@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-website-signup
+  description: Team Website Signup
+spec:
+  type: team
+  profile:
+    email: team-website-signup@example.com
+    picture: http://example.com/1.jpg
+  parent: Group:default/team-website
+  children: []
