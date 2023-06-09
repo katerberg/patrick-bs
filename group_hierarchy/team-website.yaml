@@ -10,5 +10,5 @@ spec:
     picture: http://example.com/1.jpg
   parent: Group:default/bu-frontend
   children: 
-    -Group:default/team-website-signup
+    - Group:default/team-website-signup
 
