@@ -1,13 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  namespace: default
-  annotations:
-    backstage.io/managed-by-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/shuffle-api-component.yaml
-    backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
-    backstage.io/view-url: https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/shuffle-api-component.yaml
-    backstage.io/edit-url: https://github.com/backstage/backstage/edit/master/packages/catalog-model/examples/components/shuffle-api-component.yaml
-    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/components/
   name: shuffle-api
   description: Shuffle API
   labels:
@@ -15,23 +8,8 @@ metadata:
     category: music
   tags:
     - go
-  uid: 2c19f613-1bb6-4d4e-aa5e-c0641047bde5
-  etag: 4f61f0ee0e76f0ff1e48d87e644cbd27a3bbcb41
-relations:
-  - type: ownedBy
-    targetRef: user:default/guest
-    target:
-      kind: user
-      namespace: default
-      name: guest
-  - type: partOf
-    targetRef: system:default/audio-playback
-    target:
-      kind: system
-      namespace: default
-      name: audio-playback
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: user:hugo
   system: audio-playback
