@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: purchasing-trolley
+  description: Purchasing trolley is different than the shopping cart
+spec:
+  type: service
+  lifecycle: alpha
+  owner: team-b
