@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-services
+  description: A collection of a number of backstage test entities
+spec:
+  targets:
+    - ./demo-account.yaml
