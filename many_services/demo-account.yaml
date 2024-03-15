@@ -6,4 +6,4 @@ metadata:
 spec:
   type: service
   lifecycle: alpha
-  owner: team-b
+  owner: logistics-coordination
