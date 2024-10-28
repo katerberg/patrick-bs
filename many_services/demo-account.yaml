@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: purchasing-trolley
   description: Purchasing trolley is different than the shopping cart
+  annotations:
+    backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
 spec:
   type: service
   lifecycle: alpha
